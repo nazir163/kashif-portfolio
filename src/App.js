@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { Mail, Phone, ExternalLink, ChevronDown, Gamepad2, Star, MapPin, Menu, X } from 'lucide-react';
 import './index.css';
 import './App.css';
