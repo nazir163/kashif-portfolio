@@ -29,7 +29,7 @@ const EXPERIENCE = [
   {
     company: 'Game Rezort',
     role: 'Unity Game Developer',
-    period: 'Aug 2025 – Present',
+    period: 'Aug 2025',
     desc: 'Developing Android games using Unity and C# with focus on gameplay, AI, and UI. Integrating AdMob ads and optimizing performance for mobile devices.',
     tags: ['Unity', 'C#', 'AdMob', 'Android'],
     link: null,
@@ -47,11 +47,11 @@ const EXPERIENCE = [
   {
     company: 'Gaminator',
     role: 'Unity Game Developer',
-    period: 'Past Experience',
+    period: 'Present',
     desc: 'Built engaging mobile games with rich gameplay mechanics and published to Google Play Store. Focused on immersive game experience and player engagement.',
     tags: ['Unity', 'Google Play', 'Mobile Games', 'C#'],
     link: 'https://play.google.com/store/apps/details?id=com.kz.hunt.toilettime.toiletgame.toiletmonster&pcampaignid=web_share',
-    current: false,
+    current: true,
   },
 ];
 
