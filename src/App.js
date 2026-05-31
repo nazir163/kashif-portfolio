@@ -33,7 +33,7 @@ const EXPERIENCE = [
     desc: 'Developing Android games using Unity and C# with focus on gameplay, AI, and UI. Integrating AdMob ads and optimizing performance for mobile devices.',
     tags: ['Unity', 'C#', 'AdMob', 'Android'],
     link: null,
-    current: true,
+    current: false,
   },
   {
     company: 'Meta Melon Official',
@@ -287,7 +287,7 @@ function HeroSection() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4 }}
         >
-          {[['9+', 'Games Built'], ['3+', 'Years Exp'], ['2', 'Stores'], ['100%', 'Mobile Focus']].map(([n, l]) => (
+          {[['9+', 'Games Built'], ['1.5+', 'Years Exp'], ['2', 'Stores'], ['100%', 'Mobile Focus']].map(([n, l]) => (
             <div key={l} className="stat-item">
               <span className="stat-num">{n}</span>
               <span className="stat-label">{l}</span>
@@ -372,7 +372,7 @@ function AboutSection() {
             </div>
 
             <div className="about-social">
-              <a href="https://linkedin.com/in/kashif-irshad" target="_blank" rel="noreferrer" className="social-btn">
+              <a href="https://www.linkedin.com/in/kashif-irshad-9788762b4?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" className="social-btn">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg> LinkedIn
               </a>
               <a href="mailto:kashifirshad473@gmail.com" className="social-btn">
@@ -597,11 +597,11 @@ function ContactSection() {
                   <div className="ci-val">+92 309 4532185</div>
                 </div>
               </a>
-              <a href="https://linkedin.com/in/kashif-irshad" target="_blank" rel="noreferrer" className="contact-item">
+              <a href="https://www.linkedin.com/in/kashif-irshad-9788762b4?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" className="contact-item">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg>
                 <div>
                   <div className="ci-label">LinkedIn</div>
-                  <div className="ci-val">linkedin.com/in/kashif-irshad</div>
+                  <div className="ci-val">linkedin.com/in/kashif-irshad-9788762b4</div>
                 </div>
               </a>
               <div className="contact-item no-link">
@@ -649,7 +649,7 @@ function Footer() {
           © 2025 Kashif Irshad — Unity Game Developer — Lahore, Pakistan
         </div>
         <div className="footer-links">
-          <a href="https://linkedin.com/in/kashif-irshad" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg></a>
+          <a href="https://www.linkedin.com/in/kashif-irshad-9788762b4?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect x="2" y="9" width="4" height="12" /><circle cx="4" cy="4" r="2" /></svg></a>
           <a href="mailto:kashifirshad473@gmail.com"><Mail size={18} /></a>
           <a href="tel:+923094532185"><Phone size={18} /></a>
         </div>
